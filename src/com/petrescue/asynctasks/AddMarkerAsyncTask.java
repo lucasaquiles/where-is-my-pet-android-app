@@ -38,7 +38,6 @@ public class AddMarkerAsyncTask extends AsyncTask<Publish, Void, Publish>{
 	protected void onPostExecute(Publish result) {
 	 
 		progressDialog.dismiss();
-	
 		
 		Intent returnIntent = new Intent();
 		returnIntent.putExtra("result", result);

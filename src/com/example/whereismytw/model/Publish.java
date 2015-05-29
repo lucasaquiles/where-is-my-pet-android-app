@@ -11,6 +11,8 @@ public class Publish implements Serializable {
 	private Double lat;
 	private Double lng;
 	
+	private Categoria categoria;
+	
 	public long getId() {
 		return id;
 	}
@@ -42,4 +44,11 @@ public class Publish implements Serializable {
 		this.lng = lng;
 	}
 
+	public Categoria getCategoria() {
+		return categoria;
+	}
+	
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
 }
